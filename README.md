@@ -1,2 +1,2 @@
 # GOOGLE-CLON
-Curso práctico HTML y CSS - Clon de pagina google.
+Curso práctico HTML y CSS - Clon de página google.
