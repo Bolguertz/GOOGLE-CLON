@@ -5,6 +5,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none; /**para que todas las etiquetas de ancla no tengan decoracion**/
+  cursor: pointer; /**cuando paso el cursor sobre el ancla ahora tengo una manito**/
+}
+
 header {
   width: 100%; /**para que el ancho varie**/
   height: 60px;
@@ -13,4 +18,18 @@ header {
 header nav {
   display: flex;
   justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto; /**para que tome de forma automatica la altura del padre (header)**/
+  display: flex;/**para posicionar los elementos del nav**/
+  list-style: none; /**sacamos lo bullets (las bolitas) sacamos sus estilos**/
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a { /**aqui seleccionamos nav con la clase y el elemento ancla**/
+  margin-right: 10px;
+  color: #000;
 }
