@@ -33,3 +33,17 @@ nav .nav-right-section a { /**aqui seleccionamos nav con la clase y el elemento 
   margin-right: 10px;
   color: #000;
 }
+
+nav .nav-right-section .menu-icon {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");/**este el el background de mi icono**/
+  background-repeat: no-repeat; /**no se repite cuando se agranda la imagen**/
+  background-position: center;
+  background-size: contain; /**para que se aproxime al tamaño de mi contenedor**/
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
